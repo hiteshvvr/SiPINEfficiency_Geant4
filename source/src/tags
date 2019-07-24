@@ -1,0 +1,13 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Build	Ht1ActionIni.cc	/^ void Ht1ActionIni::Build() const$/;"	f	class:Ht1ActionIni
+BuildForMaster	Ht1ActionIni.cc	/^ void Ht1ActionIni::BuildForMaster() const$/;"	f	class:Ht1ActionIni
+Construct	Ht1DetectorConstruction.cc	/^G4VPhysicalVolume* Ht1DetectorContruction::Construct()$/;"	f	class:Ht1DetectorContruction
+Ht1ActionIni	Ht1ActionIni.cc	/^Ht1ActionIni::Ht1ActionIni()$/;"	f	class:Ht1ActionIni
+Ht1DetectorConstruction	Ht1DetectorConstruction.cc	/^Ht1DetectorConstruction::Ht1DetectorConstruction()$/;"	f	class:Ht1DetectorConstruction
+~Ht1ActionIni	Ht1ActionIni.cc	/^ Ht1ActionIni::~Ht1ActionIni()$/;"	f	class:Ht1ActionIni
+~Ht1DetectorConstructio	Ht1DetectorConstruction.cc	/^Ht1DetectorConstruction::~Ht1DetectorConstructio()$/;"	f	class:Ht1DetectorConstruction

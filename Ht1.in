@@ -1,0 +1,22 @@
+
+# gamma 6 MeV
+#/gun/particle gamma
+#/gun/energy 6 MeV
+
+#/run/printProgress 100
+#/phys/addPhysics emlivermore
+#/run/beamOn 10
+
+/phys/addPhysics empenelope
+#/tracking/verbose 2
+/run/initialize
+# electron 
+/analysis/h1/set 1 2048 0 25 keV	  #continuous eLoss 
+/analysis/h1/set 2 2048 0 25 keV	  #secondary  eLoss
+/analysis/h1/set 3 2048 0 25 keV	  #total eLoss
+/analysis/h1/set 4 2048 0 25 keV	  #e- energy spectrum
+/analysis/h1/set 5 2048 0 25 keV	  #gamma energy spectrum
+/analysis/h1/set 6 2048 0 0.001 mm	  #step size
+#gun/particle e-
+/gun/energy 25 keV
+/run/beamOn 50000000

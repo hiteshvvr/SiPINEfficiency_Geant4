@@ -1,0 +1,2 @@
+/home/seeker/G4Simulation/Efficiency/C/Run2/run/2/CMakeFiles/HT1.dir
+/home/seeker/G4Simulation/Efficiency/C/Run2/run/2/CMakeFiles/Ht1.dir
